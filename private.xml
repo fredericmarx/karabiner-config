@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>Fix German keyboard mapping for CM Storm Quickfire TKL 6keys</name>
+		<appendix>Swap angle brackets & circumflex</appendix>
+		<identifier>private.cmstorm_swap_angle_brackets_circumflex</identifier>
+		<device_only>DeviceVendor::RawValue::0x2516,DeviceProduct::RawValue::0x0011</device_only>
+		<autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::DANISH_DOLLAR</autogen>
+		<autogen>__KeyToKey__ KeyCode::DANISH_DOLLAR, KeyCode::BACKQUOTE</autogen>
+	</item>
+</root>
